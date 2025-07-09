@@ -40,6 +40,7 @@ add_root_dictionary(O2QcFV0
           include/FV0/GenericCheck.h
           include/FV0/TriggersSwVsTcmCheck.h
           include/FV0/OutOfBunchCollFeeModulesCheck.h
+	  include/FV0/RecPointsQcTask.h
   LINKDEF include/FV0/LinkDef.h)
 
 install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/include/FV0
